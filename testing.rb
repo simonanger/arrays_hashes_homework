@@ -1,8 +1,42 @@
-my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
+users = {
+  "Jonathan" => {
+    :twitter => "jonnyt",
+    :favourite_numbers => [12, 42, 75, 12, 5],
+    :home_town => "Stirling",
+    :pets => {
+      "fluffy" => :cat,
+      "fido" => :dog,
+      "spike" => :dog
+    }
+  },
+  "Erik" => {
+    :twitter => "eriksf",
+    :favourite_numbers => [8, 12, 24],
+    :home_town => "Linithgow",
+    :pets => {
+      "nemo" => :fish,
+      "kevin" => :fish,
+      "spike" => :dog,
+      "rupert" => :parrot
+    }
+  },
+  "Avril" => {
+    :twitter => "bridgpally",
+    :favourite_numbers => [12, 14, 85, 88],
+    :home_town => "Dunbar",
+    :pets => {
+      "colin" => :snake
+    }
+  }
+}
 
+users["Simon"] = {
+  twitter: "simon",
+  favourite_numbers: [7, 3, 7],
+  pets: {
+    "alexi" => :cat,
+    "sukie" => :cat,
+  }
+}
 
-
-
-my_hash[3] = "Three"
-my_hash[:four] = 4
-puts my_hash
+puts users

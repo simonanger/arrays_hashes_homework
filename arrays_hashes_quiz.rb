@@ -98,6 +98,7 @@ users = {
   users["Simon"] = {
     twitter: "simon",
     favourite_numbers: [7, 3, 6],
+    home_town: "Edinburgh"
     pets: {
       "alexi" => :cat,
       "sukie" => :cat,

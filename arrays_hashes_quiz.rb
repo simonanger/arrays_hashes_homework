@@ -85,6 +85,7 @@ users = {
   puts users["Avril"][:pets]["colin"]
 # 5. Return the smallest of Erik's favorite numbers
   puts users["Erik"][:favourite_numbers][0]
+  puts uders["Erik"][:favourite_numbers].min()
 # 6. Add the number `7` to Erik's favorite numbers
   eriks_favorite_numbers = users["Erik"][:favourite_numbers]
   eriks_favorite_numbers.push(7)
